@@ -23,7 +23,7 @@ def GetBitCoinPrices():
     querystring = {"referenceCurrencyUuid":"yhjMzLPhuIDl","timePeriod":"7d"}
 
     headers = {
-        "X-RapidAPI-Key": "b699e05ccbmsh6834f6ee8604814p134359jsne7ea5baa3dc2",
+        "X-RapidAPI-Key": "RAPID-API-KEY",
         "X-RapidAPI-Host": "coinranking1.p.rapidapi.com"
     }
     response = requests.get(url, headers=headers, params=querystring)
