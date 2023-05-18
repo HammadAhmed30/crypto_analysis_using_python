@@ -4,7 +4,7 @@ import requests
 import json
 
 # Set your OpenAI API key
-# openai.api_key = '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'
+# openai.api_key = 'API-KEY'
 
 # Function to send a prompt and get a response from the ChatGPT model
 def chat(prompt):
